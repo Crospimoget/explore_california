@@ -1,0 +1,20 @@
+# ignore tempfile.txt
+tempfile.txt
+
+# ignore .DS_Store, a mac file
+.DS_Store
+
+# ignore all zip and gz files
+*.zip
+*.gz
+
+# ignore all log files in log/ and rotating files
+log/*.log
+log/*.log.[0-9]
+
+# ignore all files in photoshop
+assets/photoshop/
+
+# ignore all files in assets/videos/ except for mp4 files starting with tour_
+assets/videos/
+!assets/videos/tour_*.mp4
